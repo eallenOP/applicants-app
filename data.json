@@ -1,0 +1,604 @@
+[
+    {
+      "id": 1,
+      "firstName": "Alice",
+      "middleName": "Rose",
+      "lastName": "Brown",
+      "homeAddress": {
+        "street": "123 Oak Street",
+        "city": "Auckland",
+        "postcode": "1010",
+        "country": "New Zealand"
+      },
+      "postalAddress": {
+        "street": "PO Box 5678",
+        "city": "Auckland",
+        "postcode": "1140",
+        "country": "New Zealand"
+      },
+      "phone": "+64 21 123 4567",
+      "cellPhone": "+64 27 765 4321",
+      "email": "alice.brown@example.com",
+      "dateOfBirth": "1990-05-15",
+      "nationality": "New Zealand",
+      "primaryNextOfKin": {
+        "name": "John Brown",
+        "address": {
+          "street": "456 Pine Avenue",
+          "city": "Hamilton",
+          "postcode": "3204",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 987 6543",
+        "cellPhone": "+64 27 876 5432",
+        "email": "john.brown@example.com"
+      },
+      "secondaryNextOfKin": {
+        "name": "Sarah Brown",
+        "address": {
+          "street": "789 Maple Road",
+          "city": "Wellington",
+          "postcode": "6011",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 234 5678",
+        "cellPhone": "+64 27 654 3210",
+        "email": "sarah.brown@example.com"
+      },
+      "avatar": "https://i.pravatar.cc/300",
+      "dietaryInformation": "None",
+      "medicalInformation": "Allergic to peanuts"
+    },
+    {
+      "id": 2,
+      "firstName": "Benjamin",
+      "middleName": "James",
+      "lastName": "Smith",
+      "homeAddress": {
+        "street": "456 Pine Avenue",
+        "city": "Hamilton",
+        "postcode": "3204",
+        "country": "New Zealand"
+      },
+      "postalAddress": {
+        "street": "PO Box 1234",
+        "city": "Hamilton",
+        "postcode": "3240",
+        "country": "New Zealand"
+      },
+      "phone": "+64 21 456 7890",
+      "cellPhone": "+64 27 987 6543",
+      "email": "benjamin.smith@example.com",
+      "dateOfBirth": "1985-08-20",
+      "nationality": "New Zealand",
+      "primaryNextOfKin": {
+        "name": "Emma Smith",
+        "address": {
+          "street": "789 Maple Road",
+          "city": "Wellington",
+          "postcode": "6011",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 543 2109",
+        "cellPhone": "+64 27 876 5432",
+        "email": "emma.smith@example.com"
+      },
+      "secondaryNextOfKin": {
+        "name": "Michael Smith",
+        "address": {
+          "street": "890 Elm Street",
+          "city": "Christchurch",
+          "postcode": "8013",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 345 6789",
+        "cellPhone": "+64 27 654 3210",
+        "email": "michael.smith@example.com"
+      },
+      "avatar": "https://i.pravatar.cc/300",
+      "dietaryInformation": "Vegetarian",
+      "medicalInformation": "None"
+    },
+    {
+      "id": 3,
+      "firstName": "Charlotte",
+      "middleName": "Grace",
+      "lastName": "Lee",
+      "homeAddress": {
+        "street": "789 Maple Road",
+        "city": "Wellington",
+        "postcode": "6011",
+        "country": "New Zealand"
+      },
+      "postalAddress": {
+        "street": "PO Box 567",
+        "city": "Wellington",
+        "postcode": "6021",
+        "country": "New Zealand"
+      },
+      "phone": "+64 21 987 6543",
+      "cellPhone": "+64 27 654 3210",
+      "email": "charlotte.lee@example.com",
+      "dateOfBirth": "1995-02-10",
+      "nationality": "New Zealand",
+      "primaryNextOfKin": {
+        "name": "David Lee",
+        "address": {
+          "street": "123 Oak Street",
+          "city": "Auckland",
+          "postcode": "1010",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 876 5432",
+        "cellPhone": "+64 27 543 2109",
+        "email": "david.lee@example.com"
+      },
+      "secondaryNextOfKin": {
+        "name": "Sophie Lee",
+        "address": {
+          "street": "456 Pine Avenue",
+          "city": "Hamilton",
+          "postcode": "3204",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 234 5678",
+        "cellPhone": "+64 27 321 0987",
+        "email": "sophie.lee@example.com"
+      },
+      "avatar": "https://i.pravatar.cc/300",
+      "dietaryInformation": "Gluten-free",
+      "medicalInformation": "Asthma"
+    },
+    {
+      "id": 4,
+      "firstName": "Daniel",
+      "middleName": "John",
+      "lastName": "Wilson",
+      "homeAddress": {
+        "street": "456 Pine Avenue",
+        "city": "Hamilton",
+        "postcode": "3204",
+        "country": "New Zealand"
+      },
+      "postalAddress": {
+        "street": "PO Box 7890",
+        "city": "Hamilton",
+        "postcode": "3240",
+        "country": "New Zealand"
+      },
+      "phone": "+64 21 234 5678",
+      "cellPhone": "+64 27 876 5432",
+      "email": "daniel.wilson@example.com",
+      "dateOfBirth": "1980-11-25",
+      "nationality": "New Zealand",
+      "primaryNextOfKin": {
+        "name": "Olivia Wilson",
+        "address": {
+          "street": "789 Maple Road",
+          "city": "Wellington",
+          "postcode": "6011",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 987 6543",
+        "cellPhone": "+64 27 765 4321",
+        "email": "olivia.wilson@example.com"
+      },
+      "secondaryNextOfKin": {
+        "name": "George Wilson",
+        "address": {
+          "street": "890 Elm Street",
+          "city": "Christchurch",
+          "postcode": "8013",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 543 2109",
+        "cellPhone": "+64 27 321 0987",
+        "email": "george.wilson@example.com"
+      },
+      "avatar": "https://i.pravatar.cc/300",
+      "dietaryInformation": "None",
+      "medicalInformation": "Diabetic"
+    },
+    {
+      "id": 5,
+      "firstName": "Emily",
+      "middleName": "Anne",
+      "lastName": "Thompson",
+      "homeAddress": {
+        "street": "789 Maple Road",
+        "city": "Wellington",
+        "postcode": "6011",
+        "country": "New Zealand"
+      },
+      "postalAddress": {
+        "street": "PO Box 567",
+        "city": "Wellington",
+        "postcode": "6021",
+        "country": "New Zealand"
+      },
+      "phone": "+64 21 876 5432",
+      "cellPhone": "+64 27 543 2109",
+      "email": "emily.thompson@example.com",
+      "dateOfBirth": "1993-04-30",
+      "nationality": "New Zealand",
+      "primaryNextOfKin": {
+        "name": "Thomas Thompson",
+        "address": {
+          "street": "123 Oak Street",
+          "city": "Auckland",
+          "postcode": "1010",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 456 7890",
+        "cellPhone": "+64 27 987 6543",
+        "email": "thomas.thompson@example.com"
+      },
+      "secondaryNextOfKin": {
+        "name": "Lily Thompson",
+        "address": {
+          "street": "456 Pine Avenue",
+          "city": "Hamilton",
+          "postcode": "3204",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 234 5678",
+        "cellPhone": "+64 27 654 3210",
+        "email": "lily.thompson@example.com"
+  
+  
+      },
+      "avatar": "https://i.pravatar.cc/300",
+      "dietaryInformation": "Vegetarian",
+      "medicalInformation": "None"
+    },
+    {
+      "id": 6,
+      "firstName": "George",
+      "middleName": "David",
+      "lastName": "Robinson",
+      "homeAddress": {
+        "street": "123 Oak Street",
+        "city": "Auckland",
+        "postcode": "1010",
+        "country": "New Zealand"
+      },
+      "postalAddress": {
+        "street": "PO Box 5678",
+        "city": "Auckland",
+        "postcode": "1140",
+        "country": "New Zealand"
+      },
+      "phone": "+64 21 345 6789",
+      "cellPhone": "+64 27 876 5432",
+      "email": "george.robinson@example.com",
+      "dateOfBirth": "1987-09-18",
+      "nationality": "New Zealand",
+      "primaryNextOfKin": {
+        "name": "Lucy Robinson",
+        "address": {
+          "street": "456 Pine Avenue",
+          "city": "Hamilton",
+          "postcode": "3204",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 987 6543",
+        "cellPhone": "+64 27 765 4321",
+        "email": "lucy.robinson@example.com"
+      },
+      "secondaryNextOfKin": {
+        "name": "Jack Robinson",
+        "address": {
+          "street": "789 Maple Road",
+          "city": "Wellington",
+          "postcode": "6011",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 543 2109",
+        "cellPhone": "+64 27 654 3210",
+        "email": "jack.robinson@example.com"
+      },
+      "avatar": "https://i.pravatar.cc/300",
+      "dietaryInformation": "None",
+      "medicalInformation": "ADHD"
+    },
+    {
+      "id": 7,
+      "firstName": "Hannah",
+      "middleName": "Louise",
+      "lastName": "Wilson",
+      "homeAddress": {
+        "street": "456 Pine Avenue",
+        "city": "Hamilton",
+        "postcode": "3204",
+        "country": "New Zealand"
+      },
+      "postalAddress": {
+        "street": "PO Box 1234",
+        "city": "Hamilton",
+        "postcode": "3240",
+        "country": "New Zealand"
+      },
+      "phone": "+64 21 654 3210",
+      "cellPhone": "+64 27 876 5432",
+      "email": "hannah.wilson@example.com",
+      "dateOfBirth": "1991-12-05",
+      "nationality": "New Zealand",
+      "primaryNextOfKin": {
+        "name": "Matthew Wilson",
+        "address": {
+          "street": "789 Maple Road",
+          "city": "Wellington",
+          "postcode": "6011",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 234 5678",
+        "cellPhone": "+64 27 543 2109",
+        "email": "matthew.wilson@example.com"
+      },
+      "secondaryNextOfKin": {
+        "name": "Sophia Wilson",
+        "address": {
+          "street": "890 Elm Street",
+          "city": "Christchurch",
+          "postcode": "8013",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 987 6543",
+        "cellPhone": "+64 27 876 5432",
+        "email": "sophia.wilson@example.com"
+      },
+      "avatar": "https://i.pravatar.cc/300",
+      "dietaryInformation": "Can't eat fish, shellfish, brocolli and some nuts. Don't like mushrooms and tomatos.",
+      "medicalInformation": "None"
+    },
+    {
+      "id": 8,
+      "firstName": "Isabella",
+      "middleName": "Grace",
+      "lastName": "Taylor",
+      "homeAddress": {
+        "street": "789 Maple Road",
+        "city": "Wellington",
+        "postcode": "6011",
+        "country": "New Zealand"
+      },
+      "postalAddress": {
+        "street": "PO Box 567",
+        "city": "Wellington",
+        "postcode": "6021",
+        "country": "New Zealand"
+      },
+      "phone": "+64 21 543 2109",
+      "cellPhone": "+64 27 654 3210",
+      "email": "isabella.taylor@example.com",
+      "dateOfBirth": "1989-07-08",
+      "nationality": "New Zealand",
+      "primaryNextOfKin": {
+        "name": "Jacob Taylor",
+        "address": {
+          "street": "123 Oak Street",
+          "city": "Auckland",
+          "postcode": "1010",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 876 5432",
+        "cellPhone": "+64 27 987 6543",
+        "email": "jacob.taylor@example.com"
+      },
+      "secondaryNextOfKin": {
+        "name": "Sophie Taylor",
+        "address": {
+          "street": "456 Pine Avenue",
+          "city": "Hamilton",
+          "postcode": "3204",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 234 5678",
+        "cellPhone": "+64 27 876 5432",
+        "email": "sophie.taylor@example.com"
+      },
+      "avatar": "https://i.pravatar.cc/300",
+      "dietaryInformation": "Gluten intolerant",
+      "medicalInformation": "None"
+    },
+    {
+      "id": 9,
+      "firstName": "Jack",
+      "middleName": "Michael",
+      "lastName": "Brown",
+      "homeAddress": {
+        "street": "123 Oak Street",
+        "city": "Auckland",
+        "postcode": "1010",
+        "country": "New Zealand"
+      },
+      "postalAddress": {
+        "street": "PO Box 5678",
+        "city": "Auckland",
+        "postcode": "1140",
+        "country": "New Zealand"
+      },
+      "phone": "+64 21 234 5678",
+      "cellPhone": "+64 27 987 6543",
+      "email": "jack.brown@example.com",
+      "dateOfBirth": "1984-03-12",
+      "nationality": "New Zealand",
+      "primaryNextOfKin": {
+        "name": "Oliver Brown",
+        "address": {
+          "street": "456 Pine Avenue",
+          "city": "Hamilton",
+          "postcode": "3204",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 876 5432",
+        "cellPhone": "+64 27 543 2109",
+        "email": "oliver.brown@example.com"
+      },
+      "secondaryNextOfKin": {
+        "name": "Jessica Brown",
+        "address": {
+          "street": "789 Maple Road",
+          "city": "Wellington",
+          "postcode": "6011",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 987 6543",
+        "cellPhone": "+64 27 654 3210",
+        "email": "jessica.brown@example.com"
+      },
+      "avatar": "https://i.pravatar.cc/300",
+      "dietaryInformation": "Vegan, gluten-free, nut-free, sugar-free, fodmap",
+      "medicalInformation": "Hypoglycemia, fainting fits"
+    },
+    {
+      "id": 10,
+      "firstName": "Jacob",
+      "middleName": "William",
+      "lastName": "Evans",
+      "homeAddress": {
+        "street": "456 Pine Avenue",
+        "city": "Hamilton",
+        "postcode": "3204",
+        "country": "New Zealand"
+      },
+      "postalAddress": {
+        "street": "PO Box 1234",
+        "city": "Hamilton",
+        "postcode": "3240",
+        "country": "New Zealand"
+      },
+      "phone": "+64 21 876 5432",
+      "cellPhone": "+64 27 543 2109",
+      "email": "jacob.evans@example.com",
+      "dateOfBirth": "1992-10-28",
+      "nationality": "New Zealand",
+      "primaryNextOfKin": {
+        "name": "Emily Evans",
+        "address": {
+          "street": "789 Maple Road",
+          "city": "Wellington",
+          "postcode": "6011",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 234 5678",
+        "cellPhone": "+64 27 987 6543",
+        "email": "emily.evans@example.com"
+      },
+      "secondaryNextOfKin": {
+        "name": "Harry Evans",
+        "address": {
+          "street": "890 Elm Street",
+          "city": "Christchurch",
+          "postcode": "8013",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 876 5432",
+        "cellPhone": "+64 27 654 3210",
+        "email": "harry.evans@example.com"
+      },
+      "avatar": "https://i.pravatar.cc/300",
+      "dietaryInformation": "None",
+      "medicalInformation": "Hayfever, mild asthma, skin irritation caused by contact with salt water, slight alergy to prolonged sunlight"
+    },
+    {
+      "id": 11,
+      "firstName": "Lily",
+      "middleName": "Elizabeth",
+      "lastName": "Johnson",
+      "homeAddress": {
+        "street": "123 Oak Street",
+        "city": "Auckland",
+        "postcode": "1010",
+        "country": "New Zealand"
+      },
+      "postalAddress": {
+        "street": "PO Box 5678",
+        "city": "Auckland",
+        "postcode": "1140",
+        "country": "New Zealand"
+      },
+      "phone": "+64 21 345 6789",
+      "cellPhone": "+64 27 876 5432",
+      "email": "lily.johnson@example.com",
+      "dateOfBirth": "1997-06-15",
+      "nationality": "New Zealand",
+      "primaryNextOfKin": {
+        "name": "Thomas Johnson",
+        "address": {
+          "street": "456 Pine Avenue",
+          "city": "Hamilton",
+          "postcode": "3204",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 987 6543",
+        "cellPhone": "+64 27 765 4321",
+        "email": "thomas.johnson@example.com"
+      },
+      "secondaryNextOfKin": {
+        "name": "Sophia Johnson",
+        "address": {
+          "street": "789 Maple Road",
+          "city": "Wellington",
+          "postcode": "6011",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 543 2109",
+        "cellPhone": "+64 27 654 3210",
+        "email": "sophia.johnson@example.com"
+      },
+      "avatar": "https://i.pravatar.cc/300",
+      "dietaryInformation": "None",
+      "medicalInformation": "None"
+    },
+    {
+      "id": 12,
+      "firstName": "Lucas",
+      "middleName": "Thomas",
+      "lastName": "Clark",
+      "homeAddress": {
+        "street": "456 Pine Avenue",
+        "city": "Hamilton",
+        "postcode": "3204",
+        "country": "New Zealand"
+      },
+      "postalAddress": {
+        "street": "PO Box 1234",
+        "city": "Hamilton",
+        "postcode": "3240",
+        "country": "New Zealand"
+      },
+      "phone": "+64 21 456 7890",
+      "cellPhone": "+64 27 987 6543",
+      "email": "lucas.clark@example.com",
+      "dateOfBirth": "1983-11-08",
+      "nationality": "New Zealand",
+      "primaryNextOfKin": {
+        "name": "Isabella Clark",
+        "address": {
+          "street": "789 Maple Road",
+          "city": "Wellington",
+          "postcode": "6011",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 234 5678",
+        "cellPhone": "+64 27 543 2109",
+        "email": "isabella.clark@example.com"
+      },
+      "secondaryNextOfKin": {
+        "name": "Oscar Clark",
+        "address": {
+          "street": "890 Elm Street",
+          "city": "Christchurch",
+          "postcode": "8013",
+          "country": "New Zealand"
+        },
+        "phone": "+64 21 876 5432",
+        "cellPhone": "+64 27 654 3210",
+        "email": "oscar.clark@example.com"
+      },
+      "avatar": "https://i.pravatar.cc/300",
+      "dietaryInformation": "None",
+      "medicalInformation": "None"
+    }
+  ]
