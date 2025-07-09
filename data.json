@@ -63,7 +63,7 @@
         "workExtension": "",
         "email": "maria.chen@email.com"
       },
-      "avatarImage": "https://example.com/avatars/sarah_chen.jpg",
+      "avatarImage": "https://i.pravatar.cc/300",
       "highSchool": "Wellington College",
       "currentYear": "12",
       "nationalStudentNumber": "NSN123456789",
@@ -160,7 +160,7 @@
         "workExtension": "ext 45",
         "email": "helen.johnson@aussiemail.com.au"
       },
-      "avatarImage": "",
+      "avatarImage": "https://i.pravatar.cc/300",
       "highSchool": "Southport State High School",
       "currentYear": "13",
       "nationalStudentNumber": "",
@@ -252,7 +252,7 @@
         "workExtension": "",
         "email": "priya.patel@gmail.com"
       },
-      "avatarImage": "https://example.com/avatars/isabella_patel.jpg",
+      "avatarImage": "https://i.pravatar.cc/300",
       "highSchool": "Hampstead Comprehensive School",
       "currentYear": "13",
       "nationalStudentNumber": "NSN987654321",
@@ -344,7 +344,7 @@
         "workExtension": "",
         "email": "maria.chen@email.com"
       },
-      "avatarImage": "https://example.com/avatars/sarah_chen.jpg",
+      "avatarImage": "https://i.pravatar.cc/300",
       "highSchool": "Wellington College",
       "currentYear": "Year 2",
       "nationalStudentNumber": "NSN123456789",
@@ -441,7 +441,7 @@
         "workExtension": "ext 45",
         "email": "helen.johnson@aussiemail.com.au"
       },
-      "avatarImage": "",
+      "avatarImage": "https://i.pravatar.cc/300",
       "highSchool": "Southport State High School",
       "currentYear": "Year 1",
       "nationalStudentNumber": "",
@@ -533,7 +533,7 @@
         "workExtension": "",
         "email": "priya.patel@gmail.com"
       },
-      "avatarImage": "https://example.com/avatars/isabella_patel.jpg",
+      "avatarImage": "https://i.pravatar.cc/300",
       "highSchool": "Hampstead Comprehensive School",
       "currentYear": "Year 3",
       "nationalStudentNumber": "NSN987654321",
@@ -625,7 +625,7 @@
         "workExtension": "",
         "email": "mike.thompson@gmail.com"
       },
-      "avatarImage": "https://example.com/avatars/david_smith.jpg",
+      "avatarImage": "https://i.pravatar.cc/300",
       "highSchool": "Mount Albert Grammar School",
       "currentYear": "Year 1",
       "nationalStudentNumber": "NSN456789123",
@@ -722,7 +722,7 @@
         "workExtension": "",
         "email": "siobhan.oconnor@teacherscollege.ie"
       },
-      "avatarImage": "",
+      "avatarImage": "https://i.pravatar.cc/300",
       "highSchool": "Sacred Heart Secondary School",
       "currentYear": "Year 4",
       "nationalStudentNumber": "NSN789123456",
@@ -814,7 +814,7 @@
         "workExtension": "",
         "email": "y.tanaka@tokyouniversity.ac.jp"
       },
-      "avatarImage": "https://example.com/avatars/kenji_tanaka.jpg",
+      "avatarImage": "https://i.pravatar.cc/300",
       "highSchool": "Tokyo International School",
       "currentYear": "Year 2",
       "nationalStudentNumber": "",
