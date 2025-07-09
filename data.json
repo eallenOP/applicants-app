@@ -1,604 +1,847 @@
-[
+{
+  "students": [
     {
-      "id": 1,
-      "firstName": "Alice",
-      "middleName": "Rose",
-      "lastName": "Brown",
+      "name": {
+        "first": "Sarah",
+        "middle": "Elizabeth",
+        "last": "Chen"
+      },
+      "preferredName": "Sarah",
+      "prenominal": "Ms",
+      "studentNumber": "STU2024001",
       "homeAddress": {
-        "street": "123 Oak Street",
-        "city": "Auckland",
-        "postcode": "1010",
-        "country": "New Zealand"
+        "street": "42 Maple Street",
+        "suburb": "Newtown",
+        "town": "Wellington",
+        "postCode": "6021"
       },
-      "postalAddress": {
-        "street": "PO Box 5678",
-        "city": "Auckland",
-        "postcode": "1140",
-        "country": "New Zealand"
-      },
-      "phone": "+64 21 123 4567",
-      "cellPhone": "+64 27 765 4321",
-      "email": "alice.brown@example.com",
-      "dateOfBirth": "1990-05-15",
+      "postalAddress": "",
+      "nearestPublicTransport": "Newtown Train Station",
+      "phone": "04 555 0123",
+      "cellPhone": "021 555 0123",
+      "workPhone": "",
+      "workExtension": "",
+      "personalEmail": "sarah.chen@email.com",
+      "workEmail": "",
+      "gender": "Female",
+      "dateOfBirth": "1998-03-15",
       "nationality": "New Zealand",
       "primaryNextOfKin": {
-        "name": "John Brown",
-        "address": {
-          "street": "456 Pine Avenue",
-          "city": "Hamilton",
-          "postcode": "3204",
-          "country": "New Zealand"
+        "name": {
+          "first": "James",
+          "middle": "William",
+          "last": "Chen"
         },
-        "phone": "+64 21 987 6543",
-        "cellPhone": "+64 27 876 5432",
-        "email": "john.brown@example.com"
+        "relationship": "Father",
+        "address": {
+          "street": "42 Maple Street",
+          "suburb": "Newtown",
+          "town": "Wellington",
+          "postCode": "6021"
+        },
+        "phone": "04 555 0124",
+        "cellPhone": "",
+        "workPhone": "04 555 7890",
+        "workExtension": "ext 101",
+        "email": "james.chen@email.com"
       },
       "secondaryNextOfKin": {
-        "name": "Sarah Brown",
-        "address": {
-          "street": "789 Maple Road",
-          "city": "Wellington",
-          "postcode": "6011",
-          "country": "New Zealand"
+        "name": {
+          "first": "Maria",
+          "middle": "Rosa",
+          "last": "Chen"
         },
-        "phone": "+64 21 234 5678",
-        "cellPhone": "+64 27 654 3210",
-        "email": "sarah.brown@example.com"
+        "relationship": "Mother",
+        "address": {
+          "street": "42 Maple Street",
+          "suburb": "Newtown",
+          "town": "Wellington",
+          "postCode": "6021"
+        },
+        "phone": "04 555 0124",
+        "cellPhone": "021 555 0125",
+        "workPhone": "",
+        "workExtension": "",
+        "email": "maria.chen@email.com"
       },
-      "avatar": "https://i.pravatar.cc/300",
-      "dietaryInformation": "None",
-      "medicalInformation": "Allergic to peanuts"
+      "avatarImage": "https://example.com/avatars/sarah_chen.jpg",
+      "highSchool": "Wellington College",
+      "currentYear": "12",
+      "nationalStudentNumber": "NSN123456789",
+      "occupation": "",
+      "religiousRequirements": "",
+      "learningDisabilities": "",
+      "specialAssessmentConditions": "Extra time for written exams due to anxiety",
+      "dietaryInformation": "Vegetarian, lactose intolerant",
+      "medicalInformation": {
+        "currentConditions": "Mild anxiety disorder",
+        "recoveringFrom": "",
+        "currentTreatments": "Cognitive behavioral therapy sessions monthly",
+        "activityRestrictions": "No restrictions",
+        "medications": "Sertraline 50mg daily",
+        "allergiesReactions": "Penicillin - causes rash",
+        "lastTetanusShot": "2022-08-10"
+      },
+      "consentForImageUse": true,
+      "doctorDetails": {
+        "name": "Dr. Amanda Thompson",
+        "surgeryName": "Newtown Medical Centre",
+        "address": "15 Main Road, Newtown, Wellington 6021",
+        "phone": "04 555 2000",
+        "afterHoursPhone": "04 555 2001",
+        "email": "reception@newtownmedical.co.nz"
+      }
     },
     {
-      "id": 2,
-      "firstName": "Benjamin",
-      "middleName": "James",
-      "lastName": "Smith",
+      "name": {
+        "first": "Marcus",
+        "middle": "",
+        "last": "Johnson"
+      },
+      "preferredName": "Mark",
+      "prenominal": "",
+      "studentNumber": "STU2024002",
       "homeAddress": {
-        "street": "456 Pine Avenue",
-        "city": "Hamilton",
-        "postcode": "3204",
-        "country": "New Zealand"
+        "street": "Unit 7, 123 Queen Street",
+        "suburb": "Auckland Central",
+        "town": "Auckland",
+        "postCode": "1010"
       },
       "postalAddress": {
-        "street": "PO Box 1234",
-        "city": "Hamilton",
-        "postcode": "3240",
-        "country": "New Zealand"
+        "street": "PO Box 4567",
+        "suburb": "",
+        "town": "Auckland",
+        "postCode": "1140"
       },
-      "phone": "+64 21 456 7890",
-      "cellPhone": "+64 27 987 6543",
-      "email": "benjamin.smith@example.com",
-      "dateOfBirth": "1985-08-20",
-      "nationality": "New Zealand",
+      "nearestPublicTransport": "Britomart Transport Centre",
+      "phone": "",
+      "cellPhone": "027 555 0234",
+      "workPhone": "",
+      "workExtension": "",
+      "personalEmail": "m.johnson@gmail.com",
+      "workEmail": "",
+      "gender": "Male",
+      "dateOfBirth": "1999-11-22",
+      "nationality": "Australian",
       "primaryNextOfKin": {
-        "name": "Emma Smith",
-        "address": {
-          "street": "789 Maple Road",
-          "city": "Wellington",
-          "postcode": "6011",
-          "country": "New Zealand"
+        "name": {
+          "first": "Robert",
+          "middle": "James",
+          "last": "Johnson"
         },
-        "phone": "+64 21 543 2109",
-        "cellPhone": "+64 27 876 5432",
-        "email": "emma.smith@example.com"
+        "relationship": "Father",
+        "address": {
+          "street": "45 Sunset Boulevard",
+          "suburb": "Surfers Paradise",
+          "town": "Gold Coast",
+          "postCode": "4217"
+        },
+        "phone": "+61 7 5555 0345",
+        "cellPhone": "+61 427 555 0345",
+        "workPhone": "+61 7 5555 1000",
+        "workExtension": "",
+        "email": "rob.johnson@aussiemail.com.au"
       },
       "secondaryNextOfKin": {
-        "name": "Michael Smith",
-        "address": {
-          "street": "890 Elm Street",
-          "city": "Christchurch",
-          "postcode": "8013",
-          "country": "New Zealand"
+        "name": {
+          "first": "Helen",
+          "middle": "Margaret",
+          "last": "Johnson"
         },
-        "phone": "+64 21 345 6789",
-        "cellPhone": "+64 27 654 3210",
-        "email": "michael.smith@example.com"
+        "relationship": "Mother",
+        "address": {
+          "street": "45 Sunset Boulevard",
+          "suburb": "Surfers Paradise",
+          "town": "Gold Coast",
+          "postCode": "4217"
+        },
+        "phone": "+61 7 5555 0345",
+        "cellPhone": "+61 428 555 0345",
+        "workPhone": "+61 7 5555 2000",
+        "workExtension": "ext 45",
+        "email": "helen.johnson@aussiemail.com.au"
       },
-      "avatar": "https://i.pravatar.cc/300",
-      "dietaryInformation": "Vegetarian",
-      "medicalInformation": "None"
+      "avatarImage": "",
+      "highSchool": "Southport State High School",
+      "currentYear": "13",
+      "nationalStudentNumber": "",
+      "occupation": "Student",
+      "religiousRequirements": "Halal dietary requirements for campus meals",
+      "learningDisabilities": "Dyslexia - mild to moderate",
+      "specialAssessmentConditions": "Use of computer for written assessments, extra 25% time allowance",
+      "dietaryInformation": "",
+      "medicalInformation": {
+        "currentConditions": "Asthma",
+        "recoveringFrom": "Minor ankle sprain from basketball",
+        "currentTreatments": "",
+        "activityRestrictions": "No high-impact sports until cleared by physiotherapist",
+        "medications": "Ventolin inhaler as needed, Ibuprofen 400mg as needed for ankle",
+        "allergiesReactions": "",
+        "lastTetanusShot": "2021-03-28"
+      },
+      "consentForImageUse": false,
+      "doctorDetails": {
+        "name": "Dr. Sarah Mitchell",
+        "surgeryName": "Auckland Student Health Services",
+        "address": "Ground Floor, Student Union Building, 34 Princes Street, Auckland 1010",
+        "phone": "09 555 3000",
+        "afterHoursPhone": "09 555 3001",
+        "email": "appointments@studenthealth.ac.nz"
+      }
     },
     {
-      "id": 3,
-      "firstName": "Charlotte",
-      "middleName": "Grace",
-      "lastName": "Lee",
+      "name": {
+        "first": "Isabella",
+        "middle": "Grace",
+        "last": "Patel"
+      },
+      "preferredName": "Izzy",
+      "prenominal": "Ms",
+      "studentNumber": "STU2024003",
       "homeAddress": {
-        "street": "789 Maple Road",
-        "city": "Wellington",
-        "postcode": "6011",
-        "country": "New Zealand"
+        "street": "78 Hillside Terrace",
+        "suburb": "Kelburn",
+        "town": "Wellington",
+        "postCode": "6012"
       },
-      "postalAddress": {
-        "street": "PO Box 567",
-        "city": "Wellington",
-        "postcode": "6021",
-        "country": "New Zealand"
-      },
-      "phone": "+64 21 987 6543",
-      "cellPhone": "+64 27 654 3210",
-      "email": "charlotte.lee@example.com",
-      "dateOfBirth": "1995-02-10",
-      "nationality": "New Zealand",
+      "postalAddress": "",
+      "nearestPublicTransport": "Kelburn Cable Car",
+      "phone": "04 555 0456",
+      "cellPhone": "022 555 0456",
+      "workPhone": "04 555 8000",
+      "workExtension": "ext 312",
+      "personalEmail": "izzy.patel@protonmail.com",
+      "workEmail": "i.patel@researchlab.org.nz",
+      "gender": "Female",
+      "dateOfBirth": "1997-07-08",
+      "nationality": "British",
       "primaryNextOfKin": {
-        "name": "David Lee",
-        "address": {
-          "street": "123 Oak Street",
-          "city": "Auckland",
-          "postcode": "1010",
-          "country": "New Zealand"
+        "name": {
+          "first": "Raj",
+          "middle": "Kumar",
+          "last": "Patel"
         },
-        "phone": "+64 21 876 5432",
-        "cellPhone": "+64 27 543 2109",
-        "email": "david.lee@example.com"
+        "relationship": "Father",
+        "address": {
+          "street": "12 Rosewood Drive",
+          "suburb": "Hampstead",
+          "town": "London",
+          "postCode": "NW3 2RN"
+        },
+        "phone": "+44 20 7555 0567",
+        "cellPhone": "+44 77 5555 0567",
+        "workPhone": "",
+        "workExtension": "",
+        "email": "raj.patel@londontech.co.uk"
       },
       "secondaryNextOfKin": {
-        "name": "Sophie Lee",
-        "address": {
-          "street": "456 Pine Avenue",
-          "city": "Hamilton",
-          "postcode": "3204",
-          "country": "New Zealand"
+        "name": {
+          "first": "Priya",
+          "middle": "Devi",
+          "last": "Patel"
         },
-        "phone": "+64 21 234 5678",
-        "cellPhone": "+64 27 321 0987",
-        "email": "sophie.lee@example.com"
+        "relationship": "Mother",
+        "address": {
+          "street": "12 Rosewood Drive",
+          "suburb": "Hampstead",
+          "town": "London",
+          "postCode": "NW3 2RN"
+        },
+        "phone": "",
+        "cellPhone": "+44 78 5555 0567",
+        "workPhone": "",
+        "workExtension": "",
+        "email": "priya.patel@gmail.com"
       },
-      "avatar": "https://i.pravatar.cc/300",
-      "dietaryInformation": "Gluten-free",
-      "medicalInformation": "Asthma"
+      "avatarImage": "https://example.com/avatars/isabella_patel.jpg",
+      "highSchool": "Hampstead Comprehensive School",
+      "currentYear": "13",
+      "nationalStudentNumber": "NSN987654321",
+      "occupation": "Research Assistant",
+      "religiousRequirements": "Requires time off for Diwali and other Hindu festivals, vegetarian meals during religious observances",
+      "learningDisabilities": "ADHD",
+      "specialAssessmentConditions": "Permitted use of fidget tools during exams, regular breaks every 45 minutes",
+      "dietaryInformation": "Vegetarian, gluten-free due to celiac disease",
+      "medicalInformation": {
+        "currentConditions": "ADHD, Celiac disease, Vitamin D deficiency",
+        "recoveringFrom": "Wisdom tooth extraction - healing well",
+        "currentTreatments": "Regular dietitian consultations for celiac management",
+        "activityRestrictions": "No contact sports due to recent dental surgery until cleared",
+        "medications": "Concerta 36mg daily, Vitamin D3 1000IU daily, Calcium carbonate 600mg daily",
+        "allergiesReactions": "Gluten - severe digestive issues, Latex - contact dermatitis",
+        "lastTetanusShot": "2023-01-15"
+      },
+      "consentForImageUse": true,
+      "doctorDetails": {
+        "name": "Dr. Michael Chang",
+        "surgeryName": "Kelburn Family Practice",
+        "address": "156 Upland Road, Kelburn, Wellington 6012",
+        "phone": "04 555 4000",
+        "afterHoursPhone": "04 555 4001",
+        "email": "appointments@kelburnfp.co.nz"
+      }
+    },
+      {
+      "name": {
+        "first": "Sarah",
+        "middle": "Elizabeth",
+        "last": "Chen"
+      },
+      "preferredName": "Sarah",
+      "prenominal": "Ms",
+      "studentNumber": "STU2024001",
+      "homeAddress": {
+        "street": "42 Maple Street",
+        "suburb": "Newtown",
+        "town": "Wellington",
+        "postCode": "6021"
+      },
+      "postalAddress": null,
+      "nearestPublicTransport": "Newtown Train Station",
+      "phone": "04 555 0123",
+      "cellPhone": "021 555 0123",
+      "workPhone": "04 555 9876",
+      "workExtension": "ext 204",
+      "personalEmail": "sarah.chen@email.com",
+      "workEmail": "s.chen@techcorp.co.nz",
+      "gender": "Female",
+      "dateOfBirth": "1998-03-15",
+      "nationality": "New Zealand",
+      "primaryNextOfKin": {
+        "name": {
+          "first": "James",
+          "middle": "William",
+          "last": "Chen"
+        },
+        "relationship": "Father",
+        "address": {
+          "street": "42 Maple Street",
+          "suburb": "Newtown",
+          "town": "Wellington",
+          "postCode": "6021"
+        },
+        "phone": "04 555 0124",
+        "cellPhone": "021 555 0124",
+        "workPhone": "04 555 7890",
+        "workExtension": "ext 101",
+        "email": "james.chen@email.com"
+      },
+      "secondaryNextOfKin": {
+        "name": {
+          "first": "Maria",
+          "middle": "Rosa",
+          "last": "Chen"
+        },
+        "relationship": "Mother",
+        "address": {
+          "street": "42 Maple Street",
+          "suburb": "Newtown",
+          "town": "Wellington",
+          "postCode": "6021"
+        },
+        "phone": "04 555 0124",
+        "cellPhone": "021 555 0125",
+        "workPhone": "",
+        "workExtension": "",
+        "email": "maria.chen@email.com"
+      },
+      "avatarImage": "https://example.com/avatars/sarah_chen.jpg",
+      "highSchool": "Wellington College",
+      "currentYear": "Year 2",
+      "nationalStudentNumber": "NSN123456789",
+      "occupation": "Part-time Software Developer",
+      "religiousRequirements": "",
+      "learningDisabilities": "",
+      "specialAssessmentConditions": "Extra time for written exams due to anxiety",
+      "dietaryInformation": "Vegetarian, lactose intolerant",
+      "medicalInformation": {
+        "currentConditions": "Mild anxiety disorder",
+        "recoveringFrom": "",
+        "currentTreatments": "Cognitive behavioral therapy sessions monthly",
+        "activityRestrictions": "No restrictions",
+        "medications": "Sertraline 50mg daily",
+        "allergiesReactions": "Penicillin - causes rash",
+        "lastTetanusShot": "2022-08-10"
+      },
+      "consentForImageUse": true,
+      "doctorDetails": {
+        "name": "Dr. Amanda Thompson",
+        "surgeryName": "Newtown Medical Centre",
+        "address": "15 Main Road, Newtown, Wellington 6021",
+        "phone": "04 555 2000",
+        "afterHoursPhone": "04 555 2001",
+        "email": "reception@newtownmedical.co.nz"
+      }
     },
     {
-      "id": 4,
-      "firstName": "Daniel",
-      "middleName": "John",
-      "lastName": "Wilson",
+      "name": {
+        "first": "Marcus",
+        "middle": "",
+        "last": "Johnson"
+      },
+      "preferredName": "Mark",
+      "prenominal": "",
+      "studentNumber": "STU2024002",
       "homeAddress": {
-        "street": "456 Pine Avenue",
-        "city": "Hamilton",
-        "postcode": "3204",
-        "country": "New Zealand"
+        "street": "Unit 7, 123 Queen Street",
+        "suburb": "Auckland Central",
+        "town": "Auckland",
+        "postCode": "1010"
       },
       "postalAddress": {
-        "street": "PO Box 7890",
-        "city": "Hamilton",
-        "postcode": "3240",
-        "country": "New Zealand"
+        "street": "PO Box 4567",
+        "suburb": "",
+        "town": "Auckland",
+        "postCode": "1140"
       },
-      "phone": "+64 21 234 5678",
-      "cellPhone": "+64 27 876 5432",
-      "email": "daniel.wilson@example.com",
-      "dateOfBirth": "1980-11-25",
-      "nationality": "New Zealand",
+      "nearestPublicTransport": "Britomart Transport Centre",
+      "phone": "",
+      "cellPhone": "027 555 0234",
+      "workPhone": "",
+      "workExtension": "",
+      "personalEmail": "m.johnson@gmail.com",
+      "workEmail": "",
+      "gender": "Male",
+      "dateOfBirth": "1999-11-22",
+      "nationality": "Australian",
       "primaryNextOfKin": {
-        "name": "Olivia Wilson",
-        "address": {
-          "street": "789 Maple Road",
-          "city": "Wellington",
-          "postcode": "6011",
-          "country": "New Zealand"
+        "name": {
+          "first": "Robert",
+          "middle": "James",
+          "last": "Johnson"
         },
-        "phone": "+64 21 987 6543",
-        "cellPhone": "+64 27 765 4321",
-        "email": "olivia.wilson@example.com"
+        "relationship": "Father",
+        "address": {
+          "street": "45 Sunset Boulevard",
+          "suburb": "Surfers Paradise",
+          "town": "Gold Coast",
+          "postCode": "4217"
+        },
+        "phone": "+61 7 5555 0345",
+        "cellPhone": "+61 427 555 0345",
+        "workPhone": "+61 7 5555 1000",
+        "workExtension": "",
+        "email": "rob.johnson@aussiemail.com.au"
       },
       "secondaryNextOfKin": {
-        "name": "George Wilson",
-        "address": {
-          "street": "890 Elm Street",
-          "city": "Christchurch",
-          "postcode": "8013",
-          "country": "New Zealand"
+        "name": {
+          "first": "Helen",
+          "middle": "Margaret",
+          "last": "Johnson"
         },
-        "phone": "+64 21 543 2109",
-        "cellPhone": "+64 27 321 0987",
-        "email": "george.wilson@example.com"
+        "relationship": "Mother",
+        "address": {
+          "street": "45 Sunset Boulevard",
+          "suburb": "Surfers Paradise",
+          "town": "Gold Coast",
+          "postCode": "4217"
+        },
+        "phone": "+61 7 5555 0345",
+        "cellPhone": "+61 428 555 0345",
+        "workPhone": "+61 7 5555 2000",
+        "workExtension": "ext 45",
+        "email": "helen.johnson@aussiemail.com.au"
       },
-      "avatar": "https://i.pravatar.cc/300",
-      "dietaryInformation": "None",
-      "medicalInformation": "Diabetic"
+      "avatarImage": "",
+      "highSchool": "Southport State High School",
+      "currentYear": "Year 1",
+      "nationalStudentNumber": "",
+      "occupation": "Student",
+      "religiousRequirements": "Halal dietary requirements for campus meals",
+      "learningDisabilities": "Dyslexia - mild to moderate",
+      "specialAssessmentConditions": "Use of computer for written assessments, extra 25% time allowance",
+      "dietaryInformation": "Halal, no pork or alcohol, allergic to shellfish",
+      "medicalInformation": {
+        "currentConditions": "Asthma",
+        "recoveringFrom": "Minor ankle sprain from basketball",
+        "currentTreatments": "Physiotherapy twice weekly",
+        "activityRestrictions": "No high-impact sports until cleared by physiotherapist",
+        "medications": "Ventolin inhaler as needed, Ibuprofen 400mg as needed for ankle",
+        "allergiesReactions": "Shellfish - anaphylaxis, Dust mites - respiratory symptoms",
+        "lastTetanusShot": "2021-03-28"
+      },
+      "consentForImageUse": false,
+      "doctorDetails": {
+        "name": "Dr. Sarah Mitchell",
+        "surgeryName": "Auckland Student Health Services",
+        "address": "Ground Floor, Student Union Building, 34 Princes Street, Auckland 1010",
+        "phone": "09 555 3000",
+        "afterHoursPhone": "09 555 3001",
+        "email": "appointments@studenthealth.ac.nz"
+      }
     },
     {
-      "id": 5,
-      "firstName": "Emily",
-      "middleName": "Anne",
-      "lastName": "Thompson",
+      "name": {
+        "first": "Isabella",
+        "middle": "Grace",
+        "last": "Patel"
+      },
+      "preferredName": "Izzy",
+      "prenominal": "Ms",
+      "studentNumber": "STU2024003",
       "homeAddress": {
-        "street": "789 Maple Road",
-        "city": "Wellington",
-        "postcode": "6011",
-        "country": "New Zealand"
+        "street": "78 Hillside Terrace",
+        "suburb": "Kelburn",
+        "town": "Wellington",
+        "postCode": "6012"
       },
-      "postalAddress": {
-        "street": "PO Box 567",
-        "city": "Wellington",
-        "postcode": "6021",
-        "country": "New Zealand"
-      },
-      "phone": "+64 21 876 5432",
-      "cellPhone": "+64 27 543 2109",
-      "email": "emily.thompson@example.com",
-      "dateOfBirth": "1993-04-30",
-      "nationality": "New Zealand",
+      "postalAddress": null,
+      "nearestPublicTransport": "Kelburn Cable Car",
+      "phone": "04 555 0456",
+      "cellPhone": "022 555 0456",
+      "workPhone": "04 555 8000",
+      "workExtension": "ext 312",
+      "personalEmail": "izzy.patel@protonmail.com",
+      "workEmail": "i.patel@researchlab.org.nz",
+      "gender": "Female",
+      "dateOfBirth": "1997-07-08",
+      "nationality": "British",
       "primaryNextOfKin": {
-        "name": "Thomas Thompson",
-        "address": {
-          "street": "123 Oak Street",
-          "city": "Auckland",
-          "postcode": "1010",
-          "country": "New Zealand"
+        "name": {
+          "first": "Raj",
+          "middle": "Kumar",
+          "last": "Patel"
         },
-        "phone": "+64 21 456 7890",
-        "cellPhone": "+64 27 987 6543",
-        "email": "thomas.thompson@example.com"
+        "relationship": "Father",
+        "address": {
+          "street": "12 Rosewood Drive",
+          "suburb": "Hampstead",
+          "town": "London",
+          "postCode": "NW3 2RN"
+        },
+        "phone": "+44 20 7555 0567",
+        "cellPhone": "+44 77 5555 0567",
+        "workPhone": "+44 20 7555 4000",
+        "workExtension": "ext 205",
+        "email": "raj.patel@londontech.co.uk"
       },
       "secondaryNextOfKin": {
-        "name": "Lily Thompson",
-        "address": {
-          "street": "456 Pine Avenue",
-          "city": "Hamilton",
-          "postcode": "3204",
-          "country": "New Zealand"
+        "name": {
+          "first": "Priya",
+          "middle": "Devi",
+          "last": "Patel"
         },
-        "phone": "+64 21 234 5678",
-        "cellPhone": "+64 27 654 3210",
-        "email": "lily.thompson@example.com"
-  
-  
+        "relationship": "Mother",
+        "address": {
+          "street": "12 Rosewood Drive",
+          "suburb": "Hampstead",
+          "town": "London",
+          "postCode": "NW3 2RN"
+        },
+        "phone": "+44 20 7555 0567",
+        "cellPhone": "+44 78 5555 0567",
+        "workPhone": "",
+        "workExtension": "",
+        "email": "priya.patel@gmail.com"
       },
-      "avatar": "https://i.pravatar.cc/300",
-      "dietaryInformation": "Vegetarian",
-      "medicalInformation": "None"
+      "avatarImage": "https://example.com/avatars/isabella_patel.jpg",
+      "highSchool": "Hampstead Comprehensive School",
+      "currentYear": "Year 3",
+      "nationalStudentNumber": "NSN987654321",
+      "occupation": "Research Assistant",
+      "religiousRequirements": "Requires time off for Diwali and other Hindu festivals, vegetarian meals during religious observances",
+      "learningDisabilities": "ADHD",
+      "specialAssessmentConditions": "Permitted use of fidget tools during exams, regular breaks every 45 minutes",
+      "dietaryInformation": "Vegetarian, gluten-free due to celiac disease",
+      "medicalInformation": {
+        "currentConditions": "ADHD, Celiac disease, Vitamin D deficiency",
+        "recoveringFrom": "Wisdom tooth extraction - healing well",
+        "currentTreatments": "Regular dietitian consultations for celiac management",
+        "activityRestrictions": "No contact sports due to recent dental surgery until cleared",
+        "medications": "Concerta 36mg daily, Vitamin D3 1000IU daily, Calcium carbonate 600mg daily",
+        "allergiesReactions": "Gluten - severe digestive issues, Latex - contact dermatitis",
+        "lastTetanusShot": "2023-01-15"
+      },
+      "consentForImageUse": true,
+      "doctorDetails": {
+        "name": "Dr. Michael Chang",
+        "surgeryName": "Kelburn Family Practice",
+        "address": "156 Upland Road, Kelburn, Wellington 6012",
+        "phone": "04 555 4000",
+        "afterHoursPhone": "04 555 4001",
+        "email": "appointments@kelburnfp.co.nz"
+      }
     },
     {
-      "id": 6,
-      "firstName": "George",
-      "middleName": "David",
-      "lastName": "Robinson",
+      "name": {
+        "first": "David",
+        "middle": "Alexander",
+        "last": "Smith"
+      },
+      "preferredName": "Dave",
+      "prenominal": "Mr",
+      "studentNumber": "STU2024004",
       "homeAddress": {
-        "street": "123 Oak Street",
-        "city": "Auckland",
-        "postcode": "1010",
-        "country": "New Zealand"
+        "street": "25 Pine Avenue",
+        "suburb": "Mount Eden",
+        "town": "Auckland",
+        "postCode": "1024"
       },
-      "postalAddress": {
-        "street": "PO Box 5678",
-        "city": "Auckland",
-        "postcode": "1140",
-        "country": "New Zealand"
-      },
-      "phone": "+64 21 345 6789",
-      "cellPhone": "+64 27 876 5432",
-      "email": "george.robinson@example.com",
-      "dateOfBirth": "1987-09-18",
+      "postalAddress": null,
+      "nearestPublicTransport": "Mount Eden Train Station",
+      "phone": "09 555 0678",
+      "cellPhone": "",
+      "workPhone": "",
+      "workExtension": "",
+      "personalEmail": "d.smith@hotmail.com",
+      "workEmail": "",
+      "gender": "Male",
+      "dateOfBirth": "2000-12-03",
       "nationality": "New Zealand",
       "primaryNextOfKin": {
-        "name": "Lucy Robinson",
-        "address": {
-          "street": "456 Pine Avenue",
-          "city": "Hamilton",
-          "postcode": "3204",
-          "country": "New Zealand"
+        "name": {
+          "first": "Jennifer",
+          "middle": "Anne",
+          "last": "Smith"
         },
-        "phone": "+64 21 987 6543",
-        "cellPhone": "+64 27 765 4321",
-        "email": "lucy.robinson@example.com"
+        "relationship": "Mother",
+        "address": {
+          "street": "25 Pine Avenue",
+          "suburb": "Mount Eden",
+          "town": "Auckland",
+          "postCode": "1024"
+        },
+        "phone": "09 555 0678",
+        "cellPhone": "021 555 0678",
+        "workPhone": "09 555 5000",
+        "workExtension": "ext 150",
+        "email": "jen.smith@nursingboard.org.nz"
       },
       "secondaryNextOfKin": {
-        "name": "Jack Robinson",
-        "address": {
-          "street": "789 Maple Road",
-          "city": "Wellington",
-          "postcode": "6011",
-          "country": "New Zealand"
+        "name": {
+          "first": "Michael",
+          "middle": "David",
+          "last": "Thompson"
         },
-        "phone": "+64 21 543 2109",
-        "cellPhone": "+64 27 654 3210",
-        "email": "jack.robinson@example.com"
+        "relationship": "Step-father",
+        "address": {
+          "street": "25 Pine Avenue",
+          "suburb": "Mount Eden",
+          "town": "Auckland",
+          "postCode": "1024"
+        },
+        "phone": "09 555 0678",
+        "cellPhone": "021 555 0679",
+        "workPhone": "",
+        "workExtension": "",
+        "email": "mike.thompson@gmail.com"
       },
-      "avatar": "https://i.pravatar.cc/300",
-      "dietaryInformation": "None",
-      "medicalInformation": "ADHD"
+      "avatarImage": "https://example.com/avatars/david_smith.jpg",
+      "highSchool": "Mount Albert Grammar School",
+      "currentYear": "Year 1",
+      "nationalStudentNumber": "NSN456789123",
+      "occupation": "",
+      "religiousRequirements": "",
+      "learningDisabilities": "",
+      "specialAssessmentConditions": "",
+      "dietaryInformation": "",
+      "medicalInformation": {
+        "currentConditions": "",
+        "recoveringFrom": "",
+        "currentTreatments": "",
+        "activityRestrictions": "",
+        "medications": "",
+        "allergiesReactions": "",
+        "lastTetanusShot": "2020-06-15"
+      },
+      "consentForImageUse": true,
+      "doctorDetails": {
+        "name": "Dr. Lisa Wong",
+        "surgeryName": "Eden Medical Practice",
+        "address": "88 Dominion Road, Mount Eden, Auckland 1024",
+        "phone": "09 555 6000",
+        "afterHoursPhone": "09 555 6001",
+        "email": "reception@edenmedical.co.nz"
+      }
     },
     {
-      "id": 7,
-      "firstName": "Hannah",
-      "middleName": "Louise",
-      "lastName": "Wilson",
+      "name": {
+        "first": "Amelia",
+        "middle": "Rose",
+        "last": "O'Connor"
+      },
+      "preferredName": "Amy",
+      "prenominal": "Ms",
+      "studentNumber": "STU2024005",
       "homeAddress": {
-        "street": "456 Pine Avenue",
-        "city": "Hamilton",
-        "postcode": "3204",
-        "country": "New Zealand"
+        "street": "14B Colombo Street",
+        "suburb": "Sydenham",
+        "town": "Christchurch",
+        "postCode": "8023"
       },
       "postalAddress": {
-        "street": "PO Box 1234",
-        "city": "Hamilton",
-        "postcode": "3240",
-        "country": "New Zealand"
+        "street": "C/- O'Connor Family Trust, PO Box 8934",
+        "suburb": "",
+        "town": "Christchurch",
+        "postCode": "8440"
       },
-      "phone": "+64 21 654 3210",
-      "cellPhone": "+64 27 876 5432",
-      "email": "hannah.wilson@example.com",
-      "dateOfBirth": "1991-12-05",
-      "nationality": "New Zealand",
+      "nearestPublicTransport": "Sydenham Bus Hub",
+      "phone": "03 555 0789",
+      "cellPhone": "025 555 0789",
+      "workPhone": "03 555 7000",
+      "workExtension": "ext 220",
+      "personalEmail": "amelia.oconnor@outlook.com",
+      "workEmail": "a.oconnor@lawfirm.co.nz",
+      "gender": "Female",
+      "dateOfBirth": "1996-09-14",
+      "nationality": "Irish",
       "primaryNextOfKin": {
-        "name": "Matthew Wilson",
-        "address": {
-          "street": "789 Maple Road",
-          "city": "Wellington",
-          "postcode": "6011",
-          "country": "New Zealand"
+        "name": {
+          "first": "Patrick",
+          "middle": "Sean",
+          "last": "O'Connor"
         },
-        "phone": "+64 21 234 5678",
-        "cellPhone": "+64 27 543 2109",
-        "email": "matthew.wilson@example.com"
+        "relationship": "Father",
+        "address": {
+          "street": "Ballymore House, Main Street",
+          "suburb": "Ballymore",
+          "town": "County Cork",
+          "postCode": "P51 X234"
+        },
+        "phone": "+353 21 555 0890",
+        "cellPhone": "+353 87 555 0890",
+        "workPhone": "+353 21 555 3000",
+        "workExtension": "",
+        "email": "patrick.oconnor@corkengineering.ie"
       },
       "secondaryNextOfKin": {
-        "name": "Sophia Wilson",
-        "address": {
-          "street": "890 Elm Street",
-          "city": "Christchurch",
-          "postcode": "8013",
-          "country": "New Zealand"
+        "name": {
+          "first": "Siobhan",
+          "middle": "Mary",
+          "last": "O'Connor"
         },
-        "phone": "+64 21 987 6543",
-        "cellPhone": "+64 27 876 5432",
-        "email": "sophia.wilson@example.com"
+        "relationship": "Mother",
+        "address": {
+          "street": "Ballymore House, Main Street",
+          "suburb": "Ballymore",
+          "town": "County Cork",
+          "postCode": "P51 X234"
+        },
+        "phone": "+353 21 555 0890",
+        "cellPhone": "+353 86 555 0890",
+        "workPhone": "",
+        "workExtension": "",
+        "email": "siobhan.oconnor@teacherscollege.ie"
       },
-      "avatar": "https://i.pravatar.cc/300",
-      "dietaryInformation": "Can't eat fish, shellfish, brocolli and some nuts. Don't like mushrooms and tomatos.",
-      "medicalInformation": "None"
+      "avatarImage": "",
+      "highSchool": "Sacred Heart Secondary School",
+      "currentYear": "Year 4",
+      "nationalStudentNumber": "NSN789123456",
+      "occupation": "Legal Assistant",
+      "religiousRequirements": "Catholic - may need time off for religious observances during Holy Week",
+      "learningDisabilities": "Dyscalculia - difficulty with mathematical concepts",
+      "specialAssessmentConditions": "Calculator permitted for all mathematics-related assessments, separate room for concentration",
+      "dietaryInformation": "No red meat on Fridays during Lent, dairy-free due to lactose intolerance",
+      "medicalInformation": {
+        "currentConditions": "Lactose intolerance, Seasonal allergies (spring)",
+        "recoveringFrom": "Appendectomy - full recovery achieved",
+        "currentTreatments": "Antihistamines during spring season",
+        "activityRestrictions": "No restrictions",
+        "medications": "Lactase enzyme tablets as needed, Loratadine 10mg daily during spring",
+        "allergiesReactions": "Dairy - digestive upset, Grass pollen - hay fever symptoms",
+        "lastTetanusShot": "2019-11-22"
+      },
+      "consentForImageUse": false,
+      "doctorDetails": {
+        "name": "Dr. James Robertson",
+        "surgeryName": "Christchurch Central Medical",
+        "address": "Level 2, 150 Cashel Street, Christchurch 8011",
+        "phone": "03 555 8000",
+        "afterHoursPhone": "03 555 8001",
+        "email": "bookings@christchurchcentral.co.nz"
+      }
     },
     {
-      "id": 8,
-      "firstName": "Isabella",
-      "middleName": "Grace",
-      "lastName": "Taylor",
+      "name": {
+        "first": "Kenji",
+        "middle": "Hiroshi",
+        "last": "Tanaka"
+      },
+      "preferredName": "Ken",
+      "prenominal": "Mr",
+      "studentNumber": "STU2024006",
       "homeAddress": {
-        "street": "789 Maple Road",
-        "city": "Wellington",
-        "postcode": "6011",
-        "country": "New Zealand"
+        "street": "Apartment 12C, 456 Victoria Street",
+        "suburb": "Hamilton Central",
+        "town": "Hamilton",
+        "postCode": "3204"
       },
-      "postalAddress": {
-        "street": "PO Box 567",
-        "city": "Wellington",
-        "postcode": "6021",
-        "country": "New Zealand"
-      },
-      "phone": "+64 21 543 2109",
-      "cellPhone": "+64 27 654 3210",
-      "email": "isabella.taylor@example.com",
-      "dateOfBirth": "1989-07-08",
-      "nationality": "New Zealand",
+      "postalAddress": null,
+      "nearestPublicTransport": "Hamilton Transport Centre",
+      "phone": "",
+      "cellPhone": "027 555 0891",
+      "workPhone": "07 555 9000",
+      "workExtension": "ext 405",
+      "personalEmail": "kenji.tanaka@gmail.com",
+      "workEmail": "k.tanaka@japancultural.org.nz",
+      "gender": "Male",
+      "dateOfBirth": "1998-04-25",
+      "nationality": "Japanese",
       "primaryNextOfKin": {
-        "name": "Jacob Taylor",
-        "address": {
-          "street": "123 Oak Street",
-          "city": "Auckland",
-          "postcode": "1010",
-          "country": "New Zealand"
+        "name": {
+          "first": "Hiroshi",
+          "middle": "Takeshi",
+          "last": "Tanaka"
         },
-        "phone": "+64 21 876 5432",
-        "cellPhone": "+64 27 987 6543",
-        "email": "jacob.taylor@example.com"
+        "relationship": "Father",
+        "address": {
+          "street": "3-15-7 Shibuya",
+          "suburb": "Shibuya-ku",
+          "town": "Tokyo",
+          "postCode": "150-0002"
+        },
+        "phone": "+81 3 555 0123",
+        "cellPhone": "+81 90 555 0123",
+        "workPhone": "+81 3 555 4000",
+        "workExtension": "ext 301",
+        "email": "h.tanaka@tokyotech.co.jp"
       },
       "secondaryNextOfKin": {
-        "name": "Sophie Taylor",
-        "address": {
-          "street": "456 Pine Avenue",
-          "city": "Hamilton",
-          "postcode": "3204",
-          "country": "New Zealand"
+        "name": {
+          "first": "Yuki",
+          "middle": "Sachiko",
+          "last": "Tanaka"
         },
-        "phone": "+64 21 234 5678",
-        "cellPhone": "+64 27 876 5432",
-        "email": "sophie.taylor@example.com"
-      },
-      "avatar": "https://i.pravatar.cc/300",
-      "dietaryInformation": "Gluten intolerant",
-      "medicalInformation": "None"
-    },
-    {
-      "id": 9,
-      "firstName": "Jack",
-      "middleName": "Michael",
-      "lastName": "Brown",
-      "homeAddress": {
-        "street": "123 Oak Street",
-        "city": "Auckland",
-        "postcode": "1010",
-        "country": "New Zealand"
-      },
-      "postalAddress": {
-        "street": "PO Box 5678",
-        "city": "Auckland",
-        "postcode": "1140",
-        "country": "New Zealand"
-      },
-      "phone": "+64 21 234 5678",
-      "cellPhone": "+64 27 987 6543",
-      "email": "jack.brown@example.com",
-      "dateOfBirth": "1984-03-12",
-      "nationality": "New Zealand",
-      "primaryNextOfKin": {
-        "name": "Oliver Brown",
+        "relationship": "Mother",
         "address": {
-          "street": "456 Pine Avenue",
-          "city": "Hamilton",
-          "postcode": "3204",
-          "country": "New Zealand"
+          "street": "3-15-7 Shibuya",
+          "suburb": "Shibuya-ku",
+          "town": "Tokyo",
+          "postCode": "150-0002"
         },
-        "phone": "+64 21 876 5432",
-        "cellPhone": "+64 27 543 2109",
-        "email": "oliver.brown@example.com"
+        "phone": "+81 3 555 0123",
+        "cellPhone": "+81 80 555 0123",
+        "workPhone": "+81 3 555 5000",
+        "workExtension": "",
+        "email": "y.tanaka@tokyouniversity.ac.jp"
       },
-      "secondaryNextOfKin": {
-        "name": "Jessica Brown",
-        "address": {
-          "street": "789 Maple Road",
-          "city": "Wellington",
-          "postcode": "6011",
-          "country": "New Zealand"
-        },
-        "phone": "+64 21 987 6543",
-        "cellPhone": "+64 27 654 3210",
-        "email": "jessica.brown@example.com"
+      "avatarImage": "https://example.com/avatars/kenji_tanaka.jpg",
+      "highSchool": "Tokyo International School",
+      "currentYear": "Year 2",
+      "nationalStudentNumber": "",
+      "occupation": "Cultural Exchange Coordinator",
+      "religiousRequirements": "Buddhist - may require time off for Obon festival and other Buddhist observances",
+      "learningDisabilities": "English as second language - requires additional support with academic writing",
+      "specialAssessmentConditions": "Extended time for written assignments involving complex English, dictionary permitted for exams",
+      "dietaryInformation": "Pescatarian, no beef or pork, prefers traditional Japanese dietary patterns",
+      "medicalInformation": {
+        "currentConditions": "Myopia (short-sightedness), Mild social anxiety in large groups",
+        "recoveringFrom": "",
+        "currentTreatments": "Regular eye examinations, mindfulness meditation practice",
+        "activityRestrictions": "Must wear corrective lenses for all activities",
+        "medications": "No regular medications",
+        "allergiesReactions": "Buckwheat - severe allergic reaction, Bee stings - moderate swelling",
+        "lastTetanusShot": "2023-07-18"
       },
-      "avatar": "https://i.pravatar.cc/300",
-      "dietaryInformation": "Vegan, gluten-free, nut-free, sugar-free, fodmap",
-      "medicalInformation": "Hypoglycemia, fainting fits"
-    },
-    {
-      "id": 10,
-      "firstName": "Jacob",
-      "middleName": "William",
-      "lastName": "Evans",
-      "homeAddress": {
-        "street": "456 Pine Avenue",
-        "city": "Hamilton",
-        "postcode": "3204",
-        "country": "New Zealand"
-      },
-      "postalAddress": {
-        "street": "PO Box 1234",
-        "city": "Hamilton",
-        "postcode": "3240",
-        "country": "New Zealand"
-      },
-      "phone": "+64 21 876 5432",
-      "cellPhone": "+64 27 543 2109",
-      "email": "jacob.evans@example.com",
-      "dateOfBirth": "1992-10-28",
-      "nationality": "New Zealand",
-      "primaryNextOfKin": {
-        "name": "Emily Evans",
-        "address": {
-          "street": "789 Maple Road",
-          "city": "Wellington",
-          "postcode": "6011",
-          "country": "New Zealand"
-        },
-        "phone": "+64 21 234 5678",
-        "cellPhone": "+64 27 987 6543",
-        "email": "emily.evans@example.com"
-      },
-      "secondaryNextOfKin": {
-        "name": "Harry Evans",
-        "address": {
-          "street": "890 Elm Street",
-          "city": "Christchurch",
-          "postcode": "8013",
-          "country": "New Zealand"
-        },
-        "phone": "+64 21 876 5432",
-        "cellPhone": "+64 27 654 3210",
-        "email": "harry.evans@example.com"
-      },
-      "avatar": "https://i.pravatar.cc/300",
-      "dietaryInformation": "None",
-      "medicalInformation": "Hayfever, mild asthma, skin irritation caused by contact with salt water, slight alergy to prolonged sunlight"
-    },
-    {
-      "id": 11,
-      "firstName": "Lily",
-      "middleName": "Elizabeth",
-      "lastName": "Johnson",
-      "homeAddress": {
-        "street": "123 Oak Street",
-        "city": "Auckland",
-        "postcode": "1010",
-        "country": "New Zealand"
-      },
-      "postalAddress": {
-        "street": "PO Box 5678",
-        "city": "Auckland",
-        "postcode": "1140",
-        "country": "New Zealand"
-      },
-      "phone": "+64 21 345 6789",
-      "cellPhone": "+64 27 876 5432",
-      "email": "lily.johnson@example.com",
-      "dateOfBirth": "1997-06-15",
-      "nationality": "New Zealand",
-      "primaryNextOfKin": {
-        "name": "Thomas Johnson",
-        "address": {
-          "street": "456 Pine Avenue",
-          "city": "Hamilton",
-          "postcode": "3204",
-          "country": "New Zealand"
-        },
-        "phone": "+64 21 987 6543",
-        "cellPhone": "+64 27 765 4321",
-        "email": "thomas.johnson@example.com"
-      },
-      "secondaryNextOfKin": {
-        "name": "Sophia Johnson",
-        "address": {
-          "street": "789 Maple Road",
-          "city": "Wellington",
-          "postcode": "6011",
-          "country": "New Zealand"
-        },
-        "phone": "+64 21 543 2109",
-        "cellPhone": "+64 27 654 3210",
-        "email": "sophia.johnson@example.com"
-      },
-      "avatar": "https://i.pravatar.cc/300",
-      "dietaryInformation": "None",
-      "medicalInformation": "None"
-    },
-    {
-      "id": 12,
-      "firstName": "Lucas",
-      "middleName": "Thomas",
-      "lastName": "Clark",
-      "homeAddress": {
-        "street": "456 Pine Avenue",
-        "city": "Hamilton",
-        "postcode": "3204",
-        "country": "New Zealand"
-      },
-      "postalAddress": {
-        "street": "PO Box 1234",
-        "city": "Hamilton",
-        "postcode": "3240",
-        "country": "New Zealand"
-      },
-      "phone": "+64 21 456 7890",
-      "cellPhone": "+64 27 987 6543",
-      "email": "lucas.clark@example.com",
-      "dateOfBirth": "1983-11-08",
-      "nationality": "New Zealand",
-      "primaryNextOfKin": {
-        "name": "Isabella Clark",
-        "address": {
-          "street": "789 Maple Road",
-          "city": "Wellington",
-          "postcode": "6011",
-          "country": "New Zealand"
-        },
-        "phone": "+64 21 234 5678",
-        "cellPhone": "+64 27 543 2109",
-        "email": "isabella.clark@example.com"
-      },
-      "secondaryNextOfKin": {
-        "name": "Oscar Clark",
-        "address": {
-          "street": "890 Elm Street",
-          "city": "Christchurch",
-          "postcode": "8013",
-          "country": "New Zealand"
-        },
-        "phone": "+64 21 876 5432",
-        "cellPhone": "+64 27 654 3210",
-        "email": "oscar.clark@example.com"
-      },
-      "avatar": "https://i.pravatar.cc/300",
-      "dietaryInformation": "None",
-      "medicalInformation": "None"
+      "consentForImageUse": true,
+      "doctorDetails": {
+        "name": "Dr. Catherine Williams",
+        "surgeryName": "Hamilton Student Health Centre",
+        "address": "University Campus, Gate 1, Hillcrest Road, Hamilton 3216",
+        "phone": "07 555 1000",
+        "afterHoursPhone": "07 555 1001",
+        "email": "health@waikato.ac.nz"
+      }
     }
   ]
+}
